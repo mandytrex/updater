@@ -44,7 +44,7 @@ group :development, :test do
 
   gem 'mechanize'
 
-
+  gem 'whenever', :require => false
 
 end
 
