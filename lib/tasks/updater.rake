@@ -13,5 +13,5 @@ task :update_profile => :environment do
     puts page.title
     page.links[0].click
   end
-  update_profile(ENV['GA_CHECKER_USERNAME'],ENV['GA_CHECKER_PASSWORD'],'1067')
+  update_profile(ENV['GA_USERNAME'],ENV['GA_PASSWORD'],'1067')
 end
